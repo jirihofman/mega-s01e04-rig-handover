@@ -2,7 +2,6 @@ import { Hono } from 'hono';
 import { loadConfig, type RigConfig } from './config.js';
 import { lane } from './lane.js';
 import { readStatus } from './status.js';
-import { readNight } from './digest/reader.js';
 import { Layout } from './views/layout.js';
 import { StatusBoard } from './views/status.js';
 import { readNight } from './digest/reader.js';
