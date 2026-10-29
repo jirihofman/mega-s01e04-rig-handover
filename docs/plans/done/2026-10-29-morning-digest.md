@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-29
 ---
 
 # Morning digest
@@ -77,3 +78,17 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+- [Run log reader](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/1)
+- [Digest page](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/2)
+- [Digest JSON](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/3)
+- [Board links](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/4)
+- [Route tests](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/5)
+- [Public review preview](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/6)
+- [Preview cleanup](https://github.com/jirihofman/mega-s01e04-rig-handover/issues/7)
+
+## Validation and review
+
+All 12 tests and TypeScript checks passed. The reviewer confirmed seeing the preview. After explicit human approval, the exported HTML was replaced at https://mega-s01e04-rig-preview.vercel.app with LANE_MARKER empty; the public response was verified to show “no marker set” and retain all five jobs. Preview HTML and course logs remain outside this repository.
